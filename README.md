@@ -99,6 +99,7 @@ All stacks MUST follow and contain the principles of
 - package.json
 - docker-compose.yml (runs all the stacks that are in the repository)
 - test.js (meta tests for this repo and configs to work. ensure the project runs correctly)
+  - e2d e.g Cypress to ping and test render all running stacks
 - README.md (explains this repo)
 
 ## Resources
