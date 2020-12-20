@@ -18,7 +18,7 @@ It is tedious and time consuming to setup and connect the basics for a modern so
 It's generaly not difficult, but needs a lot of time (and knowledge of the given landscape in the stack). 
 Let's start with it, instead of "do it later".
 
-## For whom?
+## For whom
 - Lazy but strict developers who follow "clean code" and 12-factor-app principles
 - Developers who don't want to reinvent the wheel and stick to common standards
 - TDD and XP driver devs
