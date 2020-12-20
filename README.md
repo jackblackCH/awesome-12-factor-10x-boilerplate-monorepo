@@ -84,6 +84,10 @@ All stacks MUST follow and contain the principles of
   - package.json
   - tests
   - components
+    - button
+      - styles.js
+      - index.js
+      - test.js
   - TBD
 - mobile-react-native
 
