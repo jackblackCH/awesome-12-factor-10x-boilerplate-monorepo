@@ -1,28 +1,29 @@
-12-factor-10x-fullstack-hybrid-app-boilerplate-monorep
-======================================================
+awesome-12-factor-10x-fullstack-hybrid-app-boilerplate-monorepo
+===============================================================
 
 First Draft.
 
 ## What?
-- A monorepo containing a super minimal default setup for each software stack in this repository. 
+- A monorepo containing a super minimal default setup, following 12-factor-app principles for each software stack in this repository.
 - Each stack contains all basics and preconfigured configs and files
-  - (PRs following the principles are welcome)
 - Same default setup with core modern core principles for each stack. 
 - "Plug and Play".
-- Stacks are running independently 
+- Stacks are running together but independently
   - Communication only via exposed interfaces
 - Supports multiple stacks/languages/frameworks 
   - PRs are welcome
 
 ## Why
-It is tedious and time consuming to setup and connect the basics for a modern software stack following the core principles.
-It's generaly not difficult, but needs a lot of time. 
+It is tedious and time consuming to setup and connect the basics for a modern software stack following all core principles of modern software engineering
+It's generaly not difficult, but needs a lot of time (and knowledge of the given landscape in the stack). 
 Let's start with it, instead of "do it later".
 
 ## For who?
-- Lazy but strict developers who follow clean code and 12-factor-app principles
+- Lazy but strict developers who follow "clean code" and 12-factor-app principles
 - Developers who don't want to reinvent the wheel and stick to common standards
-- Test Driven devs
+- TDD and XP driver devs
+- zero config devs
+- devops
 
 ## How
 - Use what you need. 
@@ -32,9 +33,7 @@ Let's start with it, instead of "do it later".
 It acts as a plug and play boilerplate for a multipurpose web software stack including all features and tools needed to enforce modern and proofed princriples of modern (web) software design.   
 
 ## Core Principles
-
 All stacks MUST follow the principles of
-
 - Infrastucture as Code
 - Componented based
 - Flat
