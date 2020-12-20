@@ -41,12 +41,11 @@ All stacks MUST follow and contain the principles of
 - Supports deployment to a cloud provider
   - Google
   - AWS
-- Docker
+- Docker (preconfigured)
 - DevOps
-- Infrastructure as Code
-- TDD
-- CI/CD
-- Extreme Programming
+- Infrastructure as Code (preconfigured)
+- TDD (examples)
+- CI/CD (preconfigured)
 
 ### Acceptance criterias of this repo
 - A `docker-compose up` must run this all included stacks at once, independently!
