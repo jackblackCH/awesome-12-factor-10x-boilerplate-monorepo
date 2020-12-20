@@ -30,19 +30,19 @@ Let's start with it, instead of "do it later".
 - Delete what you don't. 
 - Don't worry about anything. It just works.
 
-It acts as a plug and play boilerplate for a multipurpose web software stack including all features and tools needed to enforce modern and proofed princriples of modern (web) software design.   
+It acts as a plug and play boilerplate for a multi-purpose (at the moment: web) software stack including all features and tools to enforce modern and proofed principles of modern software design and engineering.   
 
 ## Core Principles
-All stacks MUST follow the principles of
+All stacks MUST follow and contain the principles of
+
 - Infrastucture as Code
-- Componented based
+- Component based
 - Flat
-- Support a Cloud Provider
+- Supports deployment to a cloud provider
   - Google
   - AWS
 - Docker
 - DevOps
-- Cloud Infrastructure
 - Infrastructure as Code
 - TDD
 - CI/CD
@@ -63,11 +63,12 @@ All stacks MUST follow the principles of
   - node 
     - package.json
     - components
-    - TBD
   - php (TBD)
     - vendor
     - tests
     - components
+    - TBD
+  - angular
     - TBD
   - react (
     - package.json
@@ -88,6 +89,6 @@ All stacks MUST follow the principles of
 - README.md (explains this repo)
 
 ## Resources
-All thoughts and patters are mainly based on the following principles
+All thoughts and patterns are mainly based on the following principles
 - 12-factor-app: https://12factor.net/
 - CleanCode: https://www.amazon.de/gp/product/0132350882/
