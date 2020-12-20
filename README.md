@@ -3,7 +3,7 @@
 
 First Draft.
 
-# What?
+## What?
 - A monorepo containing a super minimal default setup for each software stack in this repository. 
 - Each stack contains all basics and preconfigured configs and files
   - (PRs following the principles are welcome)
@@ -14,17 +14,17 @@ First Draft.
 - Supports multiple stacks/languages/frameworks 
   - PRs are welcome
 
-# Why
+## Why
 It is tedious and time consuming to setup and connect the basics for a modern software stack following the core principles.
 It's generaly not difficult, but needs a lot of time. 
 Let's start with it, instead of "do it later".
 
-# For who?
+## For who?
 - Lazy but strict developers who follow clean code and 12-factor-app principles
 - Developers who don't want to reinvent the wheel and stick to common standards
 - Test Driven devs
 
-# How
+## How
 - Use what you need. 
 - Delete what you don't. 
 - Don't worry about anything. It just works.
@@ -88,7 +88,7 @@ All stacks MUST follow the principles of
 - test.js (meta tests for this repo and configs to work. ensure the project runs correctly)
 - README.md (explains this repo)
 
-### Resources
+## Resources
 All thoughts and patters are mainly based on the following principles
 - 12-factor-app: https://12factor.net/
 - CleanCode: https://www.amazon.de/gp/product/0132350882/
