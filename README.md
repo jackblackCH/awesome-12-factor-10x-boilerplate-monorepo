@@ -18,11 +18,10 @@ It's generaly not difficult, but needs a lot of time (and knowledge of the given
 Let's start with it, instead of "do it later".
 
 ## For whom
-- Lazy but strict developers who follow "clean code" and 12-factor-app principles
-- Developers who don't want to reinvent the wheel and stick to common standards
-- TDD and XP driver devs
-- zero config devs
-- DevOps
+- "clean code" and "12-factor-app" oriented developers
+- developers who need to orientate for best practices in an unknown stack
+- developers who don't want to reinvent the wheel and stick to common standards
+- TDD and XP driven developers
 
 ## How
 - Use what you need. 
@@ -33,16 +32,15 @@ It acts as a plug and play boilerplate for a multi-purpose (at the moment: web) 
 
 ## Core Principles
 All stacks MUST follow and contain the principles of
-- Component based
-- Flat
-- Supports deployment to a cloud provider
+- Components
+- Flat hierarchy
+- ci/cd strategy to a cloud provider
   - Google Cloud
   - AWS
 - Docker (preconfigured)
 - DevOps
 - Infrastructure as Code (preconfigured)
-- TDD (examples)
-- CI/CD (preconfigured)
+- TDD/Tests (examples)
 
 ### Acceptance criteria of this repo
 - A `docker-compose up` must run this all included stacks at once, independently!
