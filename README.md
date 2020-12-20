@@ -59,8 +59,10 @@ All stacks MUST follow and contain the principles of
     - aws
     - google cloud
   
-## Example Stacks ( more to be defined and added by the community)
+## Example drafts of stacks ( more to be defined and added by the community)
 
+- java (tbd)
+- java-whatever (tbd)
 - node-express
 - node-aws-lambdas
   - package.json
@@ -84,6 +86,7 @@ All stacks MUST follow and contain the principles of
   - components
   - TBD
 - mobile-react-native
+
 ... open for contributions
 - lerna.json (maintaining this repo and components)
 - package.json
