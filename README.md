@@ -19,6 +19,11 @@ It is tedious and time consuming to setup and connect the basics for a modern so
 It's generaly not difficult, but needs a lot of time. 
 Let's start with it, instead of "do it later".
 
+# For who?
+- Lazy but strict developers who follow clean code and 12-factor-app principles
+- Developers who don't want to reinvent the wheel and stick to common standards
+- Test Driven devs
+
 # How
 - Use what you need. 
 - Delete what you don't. 
@@ -40,13 +45,9 @@ All stacks MUST follow the principles of
 - DevOps
 - Cloud Infrastructure
 - Infrastructure as Code
+- TDD
 - CI/CD
 - Extreme Programming
-
-### Ressources
-All thoughts and patters are mainly based on the following principles
-- 12-factor-app: https://12factor.net/
-- CleanCode: https://www.amazon.de/gp/product/0132350882/
 
 ### Acceptance criterias of a stack
 - A `docker-compose up` must run this whole repository with all containing stacks 
@@ -57,26 +58,37 @@ All thoughts and patters are mainly based on the following principles
   - A working tests enviroment,
   - A working deployment command to a preconfigured dev and prod env to a cloud provider (aws, google)
 
-## Mainainted Stacks
+## Example Stacks ( more to be defined and added by the community)
 
 - stacks
   - node 
+    - package.json
     - components
     - TBD
   - php (TBD)
+    - vendor
     - tests
     - components
     - TBD
   - react (
+    - package.json
     - tests
     - components
     - TBD
   - python (TBD)
+    - requirements.txt
     - components
     - tbd
     - TBD
   - ... open for contributions
     
+- lerna.json (maintaining this repo and components)
+- package.json
 - docker-compose.yml (runs all the stacks that are in the repository)
-- test.js (meta tests for the plug and play setup. ensure the project runs correctly)
-- README.md
+- test.js (meta tests for this repo and configs to work. ensure the project runs correctly)
+- README.md (explains this repo)
+
+### Resources
+All thoughts and patters are mainly based on the following principles
+- 12-factor-app: https://12factor.net/
+- CleanCode: https://www.amazon.de/gp/product/0132350882/
