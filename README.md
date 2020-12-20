@@ -61,29 +61,30 @@ All stacks MUST follow and contain the principles of
   
 ## Example Stacks ( more to be defined and added by the community)
 
-- stacks
-  - node 
-    - package.json
-    - components
-  - php (TBD)
-    - vendor
-    - tests
-    - components
-    - TBD
-  - angular
-    - TBD
-  - react (
-    - package.json
-    - tests
-    - components
-    - TBD
-  - python (TBD)
-    - requirements.txt
-    - components
-    - tbd
-    - TBD
-  - ... open for contributions
-    
+- node-express
+- node-aws-lambdas
+  - package.json
+  - components
+- php-vanilla (TBD)
+- php-lavarel
+  - vendor
+  - tests
+  - components
+  - TBD
+- python (TBD)
+  - requirements.txt
+  - components
+  - tbd
+  - TBD
+- web-angular
+  - TBD
+- web-react (
+  - package.json
+  - tests
+  - components
+  - TBD
+- mobile-react-native
+... open for contributions
 - lerna.json (maintaining this repo and components)
 - package.json
 - docker-compose.yml (runs all the stacks that are in the repository)
