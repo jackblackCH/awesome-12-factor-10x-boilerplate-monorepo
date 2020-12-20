@@ -32,6 +32,8 @@ It acts as a plug and play boilerplate for a multi-purpose (at the moment: web) 
 
 ## Core Principles
 All stacks MUST follow and contain the principles of
+- Config/envvar based
+- Tests (examples)
 - Components
 - Flat hierarchy
 - ci/cd strategy to a cloud provider
@@ -40,7 +42,6 @@ All stacks MUST follow and contain the principles of
 - Docker (preconfigured)
 - DevOps
 - Infrastructure as Code (preconfigured)
-- TDD/Tests (examples)
 
 ### Acceptance criteria of this repo
 - A `docker-compose up` must run this all included stacks at once, independently!
