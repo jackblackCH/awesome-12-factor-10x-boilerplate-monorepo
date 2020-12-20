@@ -1,4 +1,5 @@
-awesome-12-factor-10x-multi-purpose-clean-code-app-boilerplates-monorepo
+
+awesome-12-factor-10x-boilerplate-monorepo
 ========================================================================
 
 ## What
