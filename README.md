@@ -80,6 +80,12 @@ All stacks MUST follow and contain the principles of
   - TBD
 - web-angular
   - TBD
+- web-next-app
+  - package.json
+  - tests
+  - components
+  - api
+    - demo.js
 - web-react (
   - package.json
   - tests
