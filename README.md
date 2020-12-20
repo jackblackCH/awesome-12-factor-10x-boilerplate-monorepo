@@ -1,5 +1,5 @@
-awesome-12-factor-10x-fullstack-hybrid-app-boilerplate-monorepo
-===============================================================
+awesome-12-factor-10x-multi-purpose-clean-code-app-boilerplates-monorepo
+========================================================================
 
 First Draft.
 
