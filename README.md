@@ -6,7 +6,7 @@ First Draft.
 ## What?
 - A monorepo containing a super minimal default setup, following 12-factor-app principles for each software stack in this repository.
 - Each stack contains all basics and preconfigured configs and files
-- Same default setup with core modern core principles for each stack. 
+- Same default setup with modern core principles for each stack. 
 - "Plug and Play".
 - Stacks are running together but independently
   - Communication only via exposed interfaces
@@ -18,28 +18,27 @@ It is tedious and time consuming to setup and connect the basics for a modern so
 It's generaly not difficult, but needs a lot of time (and knowledge of the given landscape in the stack). 
 Let's start with it, instead of "do it later".
 
-## For who?
+## For whom?
 - Lazy but strict developers who follow "clean code" and 12-factor-app principles
 - Developers who don't want to reinvent the wheel and stick to common standards
 - TDD and XP driver devs
 - zero config devs
-- devops
+- DevOps
 
 ## How
 - Use what you need. 
 - Delete what you don't. 
 - Don't worry about anything. It just works.
 
-It acts as a plug and play boilerplate for a multi-purpose (at the moment: web) software stack including all features and tools to enforce modern and proofed principles of modern software design and engineering.   
+It acts as a plug and play boilerplate for a multi-purpose (at the moment: web) software stack including all features and tools to enforce modern and proven principles of modern software design and engineering.   
 
 ## Core Principles
 All stacks MUST follow and contain the principles of
 
-- Infrastucture as Code
 - Component based
 - Flat
 - Supports deployment to a cloud provider
-  - Google
+  - Google Cloud
   - AWS
 - Docker (preconfigured)
 - DevOps
@@ -47,19 +46,19 @@ All stacks MUST follow and contain the principles of
 - TDD (examples)
 - CI/CD (preconfigured)
 
-### Acceptance criterias of this repo
+### Acceptance criteria of this repo
 - A `docker-compose up` must run this all included stacks at once, independently!
 - Not needed stacks can be deleted, no config files need to be touched.
 - Each stack must contain:
   - README.md file explaining the decissions.
   - Best practice and simple file architecture
   - Best practice configured test library/environment
-  - Best practice package/dependency management (i.e npm, composer, maven)
+  - Best practice package/dependency management (i.e npm, composer, gradle)
   - Preconfigured deployment configuration to
-    - aws
-    - google cloud
+    - AWS
+    - Google Cloud
   
-## Example drafts of stacks ( more to be defined and added by the community)
+## Example drafts of stacks (more to be defined and added by the community)
 
 - java (tbd)
 - java-whatever (tbd)
