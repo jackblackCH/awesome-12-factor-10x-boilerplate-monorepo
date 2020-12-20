@@ -3,7 +3,7 @@ awesome-12-factor-10x-multi-purpose-clean-code-app-boilerplates-monorepo
 
 First Draft.
 
-## What?
+## What
 - A monorepo containing a super minimal default setup, following 12-factor-app principles for each software stack in this repository.
 - Each stack contains all basics and preconfigured configs and files
 - Same default setup with modern core principles for each stack. 
@@ -60,14 +60,14 @@ All stacks MUST follow and contain the principles of
   
 ## Example drafts of stacks (more to be defined and added by the community)
 
-- java (tbd)
-- java-whatever (tbd)
-- node-express
-- node-aws-lambdas
+- java (TBD)
+- java-whatever (TBD)
+- node-express (TBD)
+- node-aws-lambdas (TBD)
   - package.json
   - components
 - php-vanilla (TBD)
-- php-lavarel
+- php-lavarel (TBD)
   - vendor
   - tests
   - components
@@ -77,15 +77,15 @@ All stacks MUST follow and contain the principles of
   - components
   - tbd
   - TBD
-- web-angular
+- web-angular (TBD)
   - TBD
-- web-next-app
+- web-next-app (TBD)
   - package.json
   - tests
   - components
   - api
     - demo.js
-- web-react (
+- web-react (TBD)
   - package.json
   - tests
   - components
@@ -94,7 +94,7 @@ All stacks MUST follow and contain the principles of
       - index.js
       - test.js
   - TBD
-- mobile-react-native
+- mobile-react-native (TBD)
 
 ... open for contributions
 - lerna.json (maintaining this repo and components)
