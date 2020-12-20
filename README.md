@@ -33,7 +33,6 @@ It acts as a plug and play boilerplate for a multi-purpose (at the moment: web) 
 
 ## Core Principles
 All stacks MUST follow and contain the principles of
-
 - Component based
 - Flat
 - Supports deployment to a cloud provider
@@ -49,7 +48,11 @@ All stacks MUST follow and contain the principles of
 - A `docker-compose up` must run this all included stacks at once, independently!
 - Not needed stacks can be deleted, no config files need to be touched.
 - Each stack must contain:
+  - a defined port to reach the stack/app within 8000 and 9000
   - README.md file explaining the decissions.
+  - An exposed and running demo api reachable via HTTP and the stack port
+    - /POST:demo -> "Hello Post World"
+    - /GET:demo -> "Hello Get World" 
   - Best practice and simple file architecture
   - Best practice configured test library/environment
   - Best practice package/dependency management (i.e npm, composer, gradle)
