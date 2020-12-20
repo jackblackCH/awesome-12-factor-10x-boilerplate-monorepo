@@ -48,15 +48,18 @@ All stacks MUST follow and contain the principles of
 - CI/CD
 - Extreme Programming
 
-### Acceptance criterias of a stack
-- A `docker-compose up` must run this whole repository with all containing stacks 
+### Acceptance criterias of this repo
+- A `docker-compose up` must run this all included stacks at once, independently!
 - Not needed stacks can be deleted, no config files need to be touched.
-- Each stack must contain
-  - A command runner
-  - Package / Dependency management system (i.e npm, composer, maven)
-  - A working tests enviroment,
-  - A working deployment command to a preconfigured dev and prod env to a cloud provider (aws, google)
-
+- Each stack must contain:
+  - README.md file explaining the decissions.
+  - Best practice and simple file architecture
+  - Best practice configured test library/environment
+  - Best practice package/dependency management (i.e npm, composer, maven)
+  - Preconfigured deployment configuration to
+    - aws
+    - google cloud
+  
 ## Example Stacks ( more to be defined and added by the community)
 
 - stacks
