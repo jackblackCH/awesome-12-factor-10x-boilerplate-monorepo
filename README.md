@@ -60,6 +60,7 @@ All stacks MUST follow and contain the principles of
   
 ## Example drafts of stacks (more to be defined and added by the community)
 
+- go (TBD)
 - java (TBD)
   - README.md
 - java-whatever (TBD)
