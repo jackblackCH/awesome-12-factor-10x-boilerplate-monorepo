@@ -1,8 +1,6 @@
 awesome-12-factor-10x-multi-purpose-clean-code-app-boilerplates-monorepo
 ========================================================================
 
-First Draft.
-
 ## What
 - A monorepo containing a super minimal default setup, following 12-factor-app principles for each software stack in this repository.
 - Each stack contains all basics and preconfigured configs and files
