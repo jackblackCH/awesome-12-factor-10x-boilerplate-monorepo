@@ -63,18 +63,25 @@ All stacks MUST follow and contain the principles of
 ## Example drafts of stacks (more to be defined and added by the community)
 
 - java (TBD)
+  - README.md
 - java-whatever (TBD)
+  - README.md
 - node-express (TBD)
+  - README.md
 - node-aws-lambdas (TBD)
+  - README.md
   - package.json
   - components
 - php-vanilla (TBD)
+  - README.md
 - php-lavarel (TBD)
+  - README.md
   - vendor
   - tests
   - components
   - TBD
 - python (TBD)
+  - README.md
   - requirements.txt
   - components
   - tbd
@@ -82,12 +89,14 @@ All stacks MUST follow and contain the principles of
 - web-angular (TBD)
   - TBD
 - web-next-app (TBD)
+  - README.md
   - package.json
   - tests
   - components
   - api
     - demo.js
 - web-react (TBD)
+  - README.md
   - package.json
   - tests
   - components
@@ -95,7 +104,6 @@ All stacks MUST follow and contain the principles of
       - styles.js
       - index.js
       - test.js
-  - TBD
 - mobile-react-native (TBD)
 
 ... open for contributions
