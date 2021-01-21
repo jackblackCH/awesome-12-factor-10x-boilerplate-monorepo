@@ -43,15 +43,25 @@ All stacks MUST follow and contain the principles of
 - DevOps
 - Infrastructure as Code (preconfigured)
 
+## Test TODO-App
+All stacks MUST implement the most simple code to run a TODO app based on all the principles.
+- Backend API
+  - api
+    - GET /todos
+    - POST /todos
+    - PUT /todo
+    - DELETE /todos
+  - tests
+- Frontend / UI 
+  - Pixelperfect UI 
+  - Tests
+
 ### Acceptance criteria of this repo
 - A `docker-compose up` must run this all included stacks at once, independently!
 - Not needed stacks can be deleted, no config files need to be touched.
 - Each stack must contain:
-  - a defined port to reach the stack/app within 8000 and 9000
+  - a defined port to reach the demo app within 8000 and 9000
   - README.md file explaining the decissions.
-  - An exposed and running demo api reachable via HTTP and the stack port
-    - /POST:demo -> "Hello Post World"
-    - /GET:demo -> "Hello Get World" 
   - Best practice and simple file architecture
   - Best practice configured test library/environment
   - Best practice package/dependency management (i.e npm, composer, gradle)
@@ -60,7 +70,6 @@ All stacks MUST follow and contain the principles of
     - Google Cloud
   
 ## Example drafts of stacks (more to be defined and added by the community)
-
 - go (TBD)
 - java (TBD)
   - README.md
